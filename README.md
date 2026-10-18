@@ -88,9 +88,9 @@ since 2021-05-01 · building in private, publishing when it's ready
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-light.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-light.svg" />
 </picture>
 
 </div>
