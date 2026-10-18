@@ -36,7 +36,7 @@ cd ~/Code/github_manager
 | badge `followers` | 动态拉取 | 自动更新，无需维护 |
 | badge `fudan university` | 按 org 推断 | 如果不对，删掉这行 |
 | badge `Shanghai-CN` | 猜测 | 改成实际城市或删除 |
-| `selected work` 表格 | 4 个项目 | 只写你愿意公开提的；都是 private 仓库，写描述不泄露代码 |
+| `selected work` 表格 | 已隐藏（注释） | 如需启用，解开 `profile/README.md` 里 `<!-- ## Selected Work ... -->` 的注释并填入项目 |
 | 底部引言 | `"Reproduce it first, then you understand it."` | 换成你自己的一句话，或删掉 |
 
 ## 5. 验证渲染
@@ -45,6 +45,16 @@ cd ~/Code/github_manager
 # 所有图片端点是否 200
 ./publish-profile.sh --check
 ```
+
+## 当前形态：克制版
+
+已启用：
+
+- `Selected Work` 整段已注释（表格框架保留在注释里，填内容时解开即可）
+- streak 卡已移除 —— 最长连续仅 4 天，展示短板不如留白
+- 只保留 stats 卡（已隐藏 rank 和 stars，否则会显示 C 级 / 0 star）+ 贡献蛇图
+
+页面结构：打字标题 → 徽章行 → 终端块 → 研究/工程分区表 → 技术栈 → Activity（stats + 蛇）→ 引言
 
 ## 备选方案
 

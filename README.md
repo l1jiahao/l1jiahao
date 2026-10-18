@@ -32,7 +32,7 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <br>
 
-## Research & Engineering
+## Focus
 
 | Domain | What I work on | Stack |
 | :--- | :--- | :--- |
@@ -60,42 +60,17 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <br>
 
-<!--
 ## Selected Work
 
-填充时直接解开注释，把下面四格里的占位内容换成真实项目。
+**[SAVE](https://github.com/fdu-wangfeilab/sc-save)** — single-cell generation framework
 
-<table>
-<tr>
-<td width="50%" valign="top">
+A generalizable framework for multi-condition single-cell generation with gene-block attention.
+The public repo open-sources gene-block construction, conditional generation, distribution
+evaluation and perturbation prediction.
 
-**`repo-name`** · *private*
-一句话说明这个项目做了什么。
-
-</td>
-<td width="50%" valign="top">
-
-**`repo-name`** · *private*
-一句话说明这个项目做了什么。
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**`repo-name`** · *private*
-一句话说明这个项目做了什么。
-
-</td>
-<td width="50%" valign="top">
-
-**`repo-name`** · *private*
-一句话说明这个项目做了什么。
-
-</td>
-</tr>
-</table>
--->
+<a href="https://openreview.net/forum?id=l7QEoK4uDP"><img src="https://img.shields.io/badge/ICLR-2026-58A6FF?style=flat-square&labelColor=161B22" alt="ICLR 2026"></a>
+<a href="https://github.com/fdu-wangfeilab/sc-save"><img src="https://img.shields.io/github/stars/fdu-wangfeilab/sc-save?style=flat-square&color=58A6FF&labelColor=161B22&label=stars" alt="stars"></a>
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
 
 <br>
 
