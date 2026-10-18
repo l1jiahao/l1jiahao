@@ -60,18 +60,42 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <br>
 
+<!--
 ## Selected Work
+
+填充时直接解开注释，把下面四格里的占位内容换成真实项目。
 
 <table>
 <tr>
-<td width="50%" valign="top">&nbsp;</td>
-<td width="50%" valign="top">&nbsp;</td>
+<td width="50%" valign="top">
+
+**`repo-name`** · *private*
+一句话说明这个项目做了什么。
+
+</td>
+<td width="50%" valign="top">
+
+**`repo-name`** · *private*
+一句话说明这个项目做了什么。
+
+</td>
 </tr>
 <tr>
-<td width="50%" valign="top">&nbsp;</td>
-<td width="50%" valign="top">&nbsp;</td>
+<td width="50%" valign="top">
+
+**`repo-name`** · *private*
+一句话说明这个项目做了什么。
+
+</td>
+<td width="50%" valign="top">
+
+**`repo-name`** · *private*
+一句话说明这个项目做了什么。
+
+</td>
 </tr>
 </table>
+-->
 
 <br>
 
@@ -80,10 +104,6 @@ since 2021-05-01 · building in private, publishing when it's ready
 <div align="center">
 
 <img height="160" src="https://github-readme-stats.vercel.app/api?username=l1jiahao&count_private=true&include_all_commits=true&show_icons=true&hide=stars,prs,issues&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="stats" />
-
-<br>
-
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=l1jiahao&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabel=C9D1D9&dates=8B949E" alt="streak" />
 
 <br>
 
