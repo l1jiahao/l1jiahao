@@ -1,66 +1,43 @@
-# Profile README 上线步骤
+# GitHub Profile 维护
 
-## 1. 建立 profile 仓库
+更新于 2026-11-07。仓库：`l1jiahao/l1jiahao`（公开）。
 
-仓库名必须**完全等于**用户名：`l1jiahao/l1jiahao`，且必须是 **public**。
+## 当前展示
+
+- 终端风格简介、研究方向、技术栈、SAVE Selected Work、贡献蛇动画。
+- SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`。
+- 移除返回 HTTP 503 的第三方统计卡；streak 卡未启用。
+- Skim 侧边栏已停止维护，按本人要求从当前项目和研究展示中移除。
+- `fudan university`、`Shanghai-CN` 已由本人确认。
+- 私有贡献显示此前已开启；私人仓库的内容不会因此公开。
+
+## 发布
+
+从管理工作区运行：
 
 ```bash
-cd ~/Code/github_manager
+./publish-profile.sh --check
 ./publish-profile.sh
 ```
 
-## 2. 打开私有贡献显示（关键）
+发布脚本要求 profile 是独立仓库、位于 main、origin 指向正确仓库、暂存区为空。
+它先 fetch 并检查远端是否领先，只暂存 README、SETUP 和 snake workflow；提交或推送失败立即退出。
+其他文件不会被自动加入提交。脚本兼容 macOS 自带 Bash 3.2。
 
-当前你有 13 个私有仓库、0 个公开仓库。如果不开这个开关，贡献图全空、stats 卡片几乎为 0。
+## 贡献蛇动画
 
-> https://github.com/settings/profile → **Contributions & Activity**
-> 勾选 **"Include private contributions on my profile"**
+`.github/workflows/snake.yml` 在 main 推送、手动触发和每 12 小时的计划任务中运行；
+有 concurrency 防止争抢 output 分支。GitHub 的计划任务可能延迟，不保证准点执行。
 
-效果：贡献热力图有真实数据，别人看到"有活动"，但看不到任何私有代码、仓库名或提交信息。
-这是绝大多数在公司/实验室做私有项目的开发者的标准做法。
+生成地址：
+- `https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-dark.svg`
+- `https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-light.svg`
 
-## 3. 触发 snake 动画
+检查运行：`gh run list -R l1jiahao/l1jiahao --workflow snake.yml --limit 3`。
 
-`.github/workflows/snake.yml` 已在仓库内。首次需手动跑一次：
+## 内容维护
 
-> 仓库 → Actions → **Generate Snake** → Run workflow
-
-约 30 秒后生成 `output` 分支，README 里的 `<picture>` 才会显示。
-
-> GitHub Actions 对新仓库可能有约 1 分钟的启用延迟；若 Actions 标签页提示需要启用，点一下 Enable 即可。
-
-## 4. 需要替换的占位内容
-
-| 位置 | 当前值 | 说明 |
-|---|---|---|
-| badge `followers` | 动态拉取 | 自动更新，无需维护 |
-| badge `fudan university` | 按 org 推断 | 如果不对，删掉这行 |
-| badge `Shanghai-CN` | 猜测 | 改成实际城市或删除 |
-| `selected work` 表格 | 已隐藏（注释） | 如需启用，解开 `profile/README.md` 里 `<!-- ## Selected Work ... -->` 的注释并填入项目 |
-| 底部引言 | `"Reproduce it first, then you understand it."` | 换成你自己的一句话，或删掉 |
-
-## 5. 验证渲染
-
-```bash
-# 所有图片端点是否 200
-./publish-profile.sh --check
-```
-
-## 当前形态：克制版
-
-已启用：
-
-- `Selected Work` 整段已注释（表格框架保留在注释里，填内容时解开即可）
-- streak 卡已移除 —— 最长连续仅 4 天，展示短板不如留白
-- 只保留 stats 卡（已隐藏 rank 和 stars，否则会显示 C 级 / 0 star）+ 贡献蛇图
-
-页面结构：打字标题 → 徽章行 → 终端块 → 研究/工程分区表 → 技术栈 → Activity（stats + 蛇）→ 引言
-
-## 备选方案
-
-如果哪天你觉得这套"卡片堆叠"太常见了，两个更克制的方向：
-
-- **纯终端**：去掉所有 stats 卡片，只留 `console` 代码块 + skillicons，靠文字取胜。信息密度高，加载快，最像"资深工程师"。
-- **内容驱动**（tw93 风格）：用 GitHub Action 定时把最新 release / RSS 文章注入 README 的标记区块，README 变成活的更新流。需要你有博客或持续发版。
-
-当前这套是**中间态**：视觉有科技感，但读取成本仍然很低。
+- 研究成果更新 `README.md` 中的 Selected Work，并优先链接组织内已公开的项目。
+- 个人版 `sc-save` 是私有开发仓库，不需要为展示再次公开。
+- 如果以后出现坏图，先运行 `--check`；第三方图片服务的错误可能是暂时的。
+- 私有贡献显示设置位于 GitHub Profile → Contributions & Activity。

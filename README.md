@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=30&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=600&height=70&lines=Li+Jiahao;Computational+Physics+%C3%97+Generative+Models;Building+tools+for+reading+papers" alt="Li Jiahao" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=600&height=70&lines=Li+Jiahao;Generative+Models+for+Scientific+Data;Single-Cell+Modeling" alt="Li Jiahao" />
 
 <samp>
   <a href="https://github.com/l1jiahao?tab=followers"><img src="https://img.shields.io/github/followers/l1jiahao?style=flat-square&color=58A6FF&labelColor=161B22&label=followers" alt="followers"></a>
@@ -20,11 +20,7 @@ Li Jiahao — researcher & engineer
 li@github:~$ cat /etc/focus
 generative-models/     diffusion · discrete tokens · vision backbones
 space-physics/         atmospheric escape · radiation-belt flux prediction
-sensor-networks/       value-function approximation · dynamic programming
-developer-tooling/     Swift/macOS · local-first LLM workflows
-
-li@github:~$ ls ~/currently
-skim-llm-sidebar/      PDF-native RAG sidebar for Skim   [private]
+sensor-networks/       node deployment · coverage optimization
 
 li@github:~$ uptime
 since 2021-05-01 · building in private, publishing when it's ready
@@ -36,10 +32,9 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 | Domain | What I work on | Stack |
 | :--- | :--- | :--- |
-| **Generative Models** | Diffusion & masked-token modeling, reproduction of SAVE / DiT / MaskGIT, sampling pipelines | `PyTorch` `Jupyter` |
+| **Generative Models** | SAVE for multi-condition single-cell generation; diffusion & masked-token modeling | `PyTorch` `Jupyter` |
 | **Space Physics** | Martian atmospheric escape, radiation-belt flux forecasting on RBSP data | `Python` `R` |
-| **Sensor Networks** | Value-function approximation & dynamic-programming routing for WSN | `Java` `Python` |
-| **Developer Tooling** | Local-first paper reading: PDFKit extraction, SQLite FTS5 indexing, streamed LLM chat | `Swift` |
+| **Sensor Networks** | Node deployment and coverage optimization for wireless sensor networks | `Java` `Python` |
 
 <br>
 
@@ -47,13 +42,11 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,swift,r,java,latex,pytorch,apple,linux,git,githubactions,vscode&theme=dark&perline=11" alt="stack" />
+<img src="https://skillicons.dev/icons?i=py,r,java,latex,pytorch,apple,linux,git,githubactions,vscode&theme=dark&perline=10" alt="stack" />
 
 <br><br>
 
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
-<img src="https://img.shields.io/badge/SQLite%20FTS5-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
-<img src="https://img.shields.io/badge/PDFKit-000000?style=flat-square&logo=apple&logoColor=white" alt="PDFKit">
 <img src="https://img.shields.io/badge/LaTeX%20%2F%20Beamer-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX">
 
 </div>
@@ -77,10 +70,6 @@ evaluation and perturbation prediction.
 ## Activity
 
 <div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=l1jiahao&count_private=true&include_all_commits=true&show_icons=true&hide=stars,prs,issues&hide_rank=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="stats" />
-
-<br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-dark.svg" />
