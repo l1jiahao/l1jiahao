@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=600&height=70&lines=Li+Jiahao;Generative+Models+for+Scientific+Data;Single-Cell+Modeling" alt="Li Jiahao" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=58A6FF&center=true&vCenter=true&width=600&height=70&lines=Li+Jiahao;Embodied+Intelligence;WAM+%C2%B7+Memory" alt="Li Jiahao — Embodied Intelligence · WAM · Memory" />
 
 <samp>
   <a href="https://github.com/l1jiahao?tab=followers"><img src="https://img.shields.io/github/followers/l1jiahao?style=flat-square&color=58A6FF&labelColor=161B22&label=followers" alt="followers"></a>
-  <a href="#"><img src="https://img.shields.io/badge/fudan%20university-research-0D1117?style=flat-square&logoColor=58A6FF&labelColor=161B22" alt="fudan"></a>
+  <a href="https://l1jiahao.github.io"><img src="https://img.shields.io/badge/Embodied%20AI-WAM%20%26%20Memory-0D1117?style=flat-square&logoColor=58A6FF&labelColor=161B22" alt="Embodied AI — WAM &amp; Memory"></a>
   <a href="#"><img src="https://img.shields.io/badge/Shanghai-CN-0D1117?style=flat-square&logo=googlemaps&logoColor=58A6FF&labelColor=161B22" alt="location"></a>
   <img src="https://komarev.com/ghpvc/?username=l1jiahao&style=flat-square&color=58A6FF&label=views" alt="views">
 </samp>
@@ -15,12 +15,11 @@
 
 ```console
 li@github:~$ whoami
-Li Jiahao — researcher & engineer
+Li Jiahao — embodied AI researcher
 
 li@github:~$ cat /etc/focus
-generative-models/     diffusion · discrete tokens · vision backbones
-space-physics/         atmospheric escape · radiation-belt flux prediction
-sensor-networks/       node deployment · coverage optimization
+embodied-intelligence/     WAM
+research-focus/            memory
 
 li@github:~$ uptime
 since 2021-05-01 · building in private, publishing when it's ready
@@ -28,13 +27,14 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <br>
 
-## Focus
+## Current Research
 
-| Domain | What I work on | Stack |
-| :--- | :--- | :--- |
-| **Generative Models** | SAVE for multi-condition single-cell generation; diffusion & masked-token modeling | `PyTorch` `Jupyter` |
-| **Space Physics** | Martian atmospheric escape, radiation-belt flux forecasting on RBSP data | `Python` `R` |
-| **Sensor Networks** | Node deployment and coverage optimization for wireless sensor networks | `Java` `Python` |
+I work on **embodied intelligence**, with a focus on **memory in WAM**.
+
+My master's research at Fudan University focused on generative modeling for single-cell
+biology, with experience in **diffusion models and flow matching**. During my undergraduate
+studies at Nanchang University, I worked on radiation-belt electron flux forecasting and
+wireless sensor network deployment.
 
 <br>
 
@@ -53,9 +53,9 @@ since 2021-05-01 · building in private, publishing when it's ready
 
 <br>
 
-## Selected Work
+## Selected Past Work
 
-**[SAVE](https://github.com/fdu-wangfeilab/sc-save)** — single-cell generation framework
+**[SAVE](https://github.com/fdu-wangfeilab/sc-save)** — single-cell generation framework, from my master's research
 
 A generalizable framework for multi-condition single-cell generation with gene-block attention.
 The public repo open-sources gene-block construction, conditional generation, distribution
