@@ -4,8 +4,9 @@
 
 ## 当前展示
 
-- 终端风格简介、研究方向、技术栈、SAVE Selected Work、贡献蛇动画。
-- 当前研究为具身智能，主要做 WAM，方向是记忆；标题、简介和研究段落已同步。硕士研究突出 diffusion models / flow matching 经验，本科研究简述为过往经历。
+- 简洁研究简介、当前工作、SAVE / stDiff 代表作、教育背景；贡献蛇动画折叠展示。
+- 与网站统一使用论文署名 Jiahao Li，移除打字动画、访问计数和技术栈徽章，使当前方向和成果优先显示。
+- 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；按本人于 11 月 7 日提供的信息呈现。硕士研究突出 diffusion models / flow matching 经验，本科研究简述为过往经历。
 - SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`。
 - 移除返回 HTTP 503 的第三方统计卡；streak 卡未启用。
 - Skim 侧边栏已停止维护，按本人要求从当前项目和研究展示中移除。
@@ -38,7 +39,7 @@
 
 ## 内容维护
 
-- 过往研究成果更新 `README.md` 中的 Selected Past Work，并优先链接组织内已公开的项目；当前研究更新 Current Research。
+- 过往研究成果更新 `README.md` 中的 Selected Work，并优先链接组织内已公开的项目；当前研究更新 Current Research。
 - 个人版 `sc-save` 是私有开发仓库，不需要为展示再次公开。
 - 如果以后出现坏图，先运行 `--check`；第三方图片服务的错误可能是暂时的。
 - 私有贡献显示设置位于 GitHub Profile → Contributions & Activity。
