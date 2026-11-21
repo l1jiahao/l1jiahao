@@ -9,7 +9,7 @@
   - `assets/research-map-dark.svg` / `assets/research-map-light.svg`：生成模型底座 → 具身智能 WAM 的能力迁移与研究阶段图谱。
   - `assets/cover-save.png` / `assets/cover-stdiff.png`：Selected Work 左图右文卡片方法缩略图（复用自学术主页已核验封面）。
 - 仅使用仓库内静态 SVG 与统一配色 `shields.io` `flat-square` 徽章，不依赖不稳定第三方统计卡（如 `github-readme-stats` / `capsule-render`）。
-- 保留终端速览块、分领域 Tech Stack 徽章表，以及底部直接展开的青绿色贡献蛇动画。
+- 保留顶部快捷链接徽章栏（含网站、Publications、SAVE、X `@argonx12`、Email）、终端速览块、分领域 Tech Stack 徽章表，以及底部直接展开的青绿色贡献蛇动画。
 - 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；结合 simulation、robotics benchmarks 与 RL post-training 开展验证。硕士研究突出 Latent VAE、OT Flow Matching、Diffusion Models、DiT 与 CFG 经验，本科及学历保留为背景。
 - SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`，README 附 OpenReview、arXiv 与 Code 链接；stDiff 链接 `fdu-wangfeilab/stDiff`。
 - GitHub 个人资料栏已同步具身智能 Bio、`https://l1jiahao.github.io` 与 `Shanghai, China`。
