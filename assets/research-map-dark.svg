@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 356" width="920" height="356" role="img" aria-label="Research and Capability Map: Generative Modeling Foundations to Embodied World–Action Models">
+  <defs>
+    <linearGradient id="mapBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0F171F"/>
+    </linearGradient>
+    <pattern id="mapGridDark" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E2B36" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect x="1" y="1" width="918" height="354" rx="12" fill="url(#mapBgDark)" stroke="#213438" stroke-width="1.2"/>
+  <rect x="1" y="1" width="918" height="354" rx="12" fill="url(#mapGridDark)" opacity="0.65"/>
+
+  <!-- Header -->
+  <text x="26" y="30" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2" fill="#E6EDF3">RESEARCH &amp; CAPABILITY MAP</text>
+  <text x="894" y="30" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" letter-spacing="0.8" fill="#8B949E">GENERATIVE FOUNDATIONS → EMBODIED WAMs</text>
+
+  <!-- TIER 1: Active Embodied Intelligence Research -->
+  <rect x="24" y="45" width="872" height="128" rx="10" fill="#10B981" fill-opacity="0.06" stroke="#10B981" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="40" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.1" fill="#10B981">01 // ACTIVE RESEARCH · EMBODIED INTELLIGENCE</text>
+  <rect x="682" y="53" width="198" height="20" rx="5" fill="#131C24" stroke="#10B981" stroke-opacity="0.55" stroke-width="1"/>
+  <text x="781" y="66.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="0.6" fill="#2DD4BF">STAGE: PRELIMINARY RESULTS</text>
+
+  <!-- Tier 1 Box 1 -->
+  <rect x="40" y="81" width="252" height="76" rx="8" fill="#131C24" stroke="#213438" stroke-width="1.2"/>
+  <text x="166" y="105" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">World–Action Models</text>
+  <text x="166" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2DD4BF">Native long-horizon training</text>
+  <text x="166" y="143" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Joint world &amp; action modeling</text>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="296" y1="119" x2="322" y2="119" stroke="#10B981" stroke-width="1.6"/>
+  <polygon points="322,115 330,119 322,123" fill="#10B981"/>
+
+  <!-- Tier 1 Box 2 -->
+  <rect x="334" y="81" width="252" height="76" rx="8" fill="#131C24" stroke="#10B981" stroke-opacity="0.65" stroke-width="1.2"/>
+  <text x="460" y="105" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Long-Horizon Memory</text>
+  <text x="460" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#10B981">Central research axis</text>
+  <text x="460" y="143" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Memory &amp; training interaction</text>
+
+  <!-- Arrow 2 -> 3 -->
+  <line x1="590" y1="119" x2="616" y2="119" stroke="#10B981" stroke-width="1.6"/>
+  <polygon points="616,115 624,119 616,123" fill="#10B981"/>
+
+  <!-- Tier 1 Box 3 -->
+  <rect x="628" y="81" width="252" height="76" rx="8" fill="#131C24" stroke="#213438" stroke-width="1.2"/>
+  <text x="754" y="105" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Eval &amp; Post-Training</text>
+  <text x="754" y="125" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2DD4BF">Simulation &amp; robotics benchmarks</text>
+  <text x="754" y="143" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">RL post-training iteration</text>
+
+  <!-- Transfer Bridge -->
+  <line x1="166" y1="215" x2="166" y2="181" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+  <polygon points="162,182 166,174 170,182" fill="#2DD4BF"/>
+  <line x1="754" y1="215" x2="754" y2="181" stroke="#2DD4BF" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.8"/>
+  <polygon points="750,182 754,174 758,182" fill="#2DD4BF"/>
+
+  <rect x="266" y="182" width="388" height="24" rx="12" fill="#131C24" stroke="#213438" stroke-width="1"/>
+  <text x="460" y="197.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="600" letter-spacing="0.8" fill="#2DD4BF">▲  GENERATIVE MODELING TRANSFERS TO WAMs  ▲</text>
+
+  <!-- TIER 2: Proven Foundation -->
+  <rect x="24" y="215" width="872" height="127" rx="10" fill="#131C24" stroke="#213438" stroke-width="1.2"/>
+  <text x="40" y="236" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="1.1" fill="#8B949E">02 // PROVEN FOUNDATION · GENERATIVE MODELING</text>
+  <text x="880" y="236" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9.5" letter-spacing="0.8" fill="#8B949E">FUDAN M.ENG. RESEARCH</text>
+
+  <!-- Tier 2 Box 1 -->
+  <rect x="40" y="248" width="198" height="58" rx="7" fill="#0D1117" stroke="#1E2B36" stroke-width="1"/>
+  <text x="139" y="272" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#E6EDF3">Latent VAEs</text>
+  <text x="139" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Structured latent spaces</text>
+
+  <!-- Tier 2 Box 2 -->
+  <rect x="254" y="248" width="198" height="58" rx="7" fill="#0D1117" stroke="#1E2B36" stroke-width="1"/>
+  <text x="353" y="272" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#E6EDF3">DiT &amp; Block Attention</text>
+  <text x="353" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Scalable transformer blocks</text>
+
+  <!-- Tier 2 Box 3 -->
+  <rect x="468" y="248" width="198" height="58" rx="7" fill="#0D1117" stroke="#1E2B36" stroke-width="1"/>
+  <text x="567" y="272" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#E6EDF3">OT Flow Matching</text>
+  <text x="567" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">&amp; Diffusion Models</text>
+
+  <!-- Tier 2 Box 4 -->
+  <rect x="682" y="248" width="198" height="58" rx="7" fill="#0D1117" stroke="#1E2B36" stroke-width="1"/>
+  <text x="781" y="272" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#E6EDF3">Multi-Condition CFG</text>
+  <text x="781" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#8B949E">Controlled generation</text>
+
+  <!-- Bottom Evidence Strip -->
+  <text x="460" y="328" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10.5" fill="#8B949E">PROVEN IN PUBLISHED WORK:  <tspan fill="#10B981" font-weight="600">SAVE (ICLR 2026 · 1st Author · Public Code)</tspan>  ·  <tspan fill="#E6EDF3">stDiff (BiB 2024 · 2nd Author · Public Code)</tspan></text>
+</svg>
