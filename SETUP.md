@@ -9,10 +9,10 @@
   - `assets/research-map-dark.svg` / `assets/research-map-light.svg`：生成模型底座 → 具身智能 WAM 的能力迁移与研究阶段图谱。
   - `assets/cover-save.png` / `assets/cover-stdiff.png`：Selected Work 左图右文卡片方法缩略图（复用自学术主页已核验封面）。
 - 仅使用仓库内静态 SVG 与统一配色 `shields.io` `flat-square` 徽章，不依赖不稳定第三方统计卡（如 `github-readme-stats` / `capsule-render`）。
-- 保留终端速览块、分领域 Tech Stack 徽章表，以及底部直接展开的贡献蛇动画。
+- 保留终端速览块、分领域 Tech Stack 徽章表，以及底部直接展开的青绿色贡献蛇动画。
 - 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；结合 simulation、robotics benchmarks 与 RL post-training 开展验证。硕士研究突出 Latent VAE、OT Flow Matching、Diffusion Models、DiT 与 CFG 经验，本科及学历保留为背景。
 - SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`，README 附 OpenReview、arXiv 与 Code 链接；stDiff 链接 `fdu-wangfeilab/stDiff`。
-- GitHub 个人资料栏（`https://github.com/settings/profile`）建议统一为：`Jiahao Li`、具身智能与 WAM 简介、`https://l1jiahao.github.io`、`Shanghai, China`（因当前 `gh` token 无 `user` scope，需在网页设置或刷新 scope 后更新）。
+- GitHub 个人资料栏已同步具身智能 Bio、`https://l1jiahao.github.io` 与 `Shanghai, China`。
 - 私有贡献显示此前已开启；私人仓库的内容不会因此公开。
 
 ## 发布
@@ -31,7 +31,7 @@
 ## 贡献蛇动画
 
 `.github/workflows/snake.yml` 在 main 推送、手动触发和每 12 小时的计划任务中运行；
-当前使用 `#58A6FF`（深色）与默认浅色配色，有 concurrency 防止争抢 output 分支（若需调整 workflow 文件中的蛇色，需在 GitHub 网页直接编辑或为 token 补充 `workflow` scope 后推送）。GitHub 的计划任务可能延迟，不保证准点执行。
+深色模式蛇色为 `#10B981`，浅色模式蛇色为 `#1F6F5B`，有 concurrency 防止争抢 output 分支。GitHub 的计划任务可能延迟，不保证准点执行。
 
 生成地址：
 - `https://raw.githubusercontent.com/l1jiahao/l1jiahao/output/snake-dark.svg`
