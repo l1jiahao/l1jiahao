@@ -1,13 +1,14 @@
 # GitHub Profile 维护
 
-更新于 2026-11-07。仓库：`l1jiahao/l1jiahao`（公开）。
+更新于 2026-11-21。仓库：`l1jiahao/l1jiahao`（公开）。
 
 ## 当前展示
 
-- 简洁研究简介、当前工作、SAVE / stDiff 代表作、教育背景；贡献蛇动画折叠展示。
-- 与网站统一使用论文署名 Jiahao Li，移除打字动画、访问计数和技术栈徽章，使当前方向和成果优先显示。
-- 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；按本人于 11 月 7 日提供的信息呈现。硕士研究突出 diffusion models / flow matching 经验，本科研究简述为过往经历。
-- SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`。
+- 简洁研究简介、Current Research、Technical Focus、SAVE / stDiff 代表作、教育背景；贡献蛇动画折叠展示。
+- 与网站统一使用论文署名 Jiahao Li，移除打字动画、访问计数和技术栈徽章，使当前方向、技术栈和成果优先显示。
+- 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；结合 simulation、robotics benchmarks 与 RL post-training 开展验证。硕士研究突出 Latent VAE、OT Flow Matching、Diffusion Models 与 CFG 经验，本科研究简述为过往经历。
+- SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`，README 中同时附有 OpenReview、arXiv 与 Code 链接；stDiff 链接 `fdu-wangfeilab/stDiff`。
+- GitHub 个人资料栏（`https://github.com/settings/profile`）建议统一为：`Jiahao Li`、具身智能与 WAM 简介、`https://l1jiahao.github.io`、`Shanghai, China`（因当前 `gh` token 无 `user` scope，需在网页设置或刷新 scope 后更新）。
 - 移除返回 HTTP 503 的第三方统计卡；streak 卡未启用。
 - Skim 侧边栏已停止维护，按本人要求从当前项目和研究展示中移除。
 - 复旦硕士经历、`Shanghai-CN` 已由本人确认；复旦以教育经历呈现，不用作当前单位标签。

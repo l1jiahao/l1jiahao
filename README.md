@@ -1,15 +1,12 @@
 # Jiahao Li
 
-**Embodied intelligence · World–Action Models · Memory**
+**Embodied Intelligence · World–Action Models (WAMs) · Long-Horizon Memory**
 
 [Website](https://l1jiahao.github.io/) · [Publications](https://l1jiahao.github.io/publications) · [Email](mailto:argonli.ai@gmail.com)
 
-I study **memory in World–Action Models (WAMs)**, with a current focus on **native
-long-horizon training**. My current work has progressed through implementation
-and experiments to preliminary results.
+I study **native long-horizon training** and **memory in World–Action Models (WAMs)** for embodied intelligence. My current work has progressed through implementation and experiments to preliminary results.
 
-My background is in **diffusion models and flow matching**, developed through
-research on generative modeling for single-cell biology.
+My background combines **flow matching, diffusion models, and latent VAEs** with **simulation, robotics benchmarks, and RL post-training**.
 
 ## Current Research
 
@@ -17,23 +14,29 @@ research on generative modeling for single-cell biology.
 
 Ongoing research · Memory mechanisms · Preliminary results
 
+- Investigating how memory mechanisms and native long-horizon training interact over extended horizons in World–Action Models.
+- Evaluating and iterating with simulation, robotics benchmarks, and RL post-training.
+
 [Research overview](https://l1jiahao.github.io/#research) · [Discuss this work](mailto:argonli.ai@gmail.com?subject=WAM%20research)
+
+## Technical Focus
+
+- **Embodied AI & WAM**: World–Action Models (WAMs), Native Long-Horizon Training, Long-Horizon Memory, Simulation & Robotics Benchmarks, RL Post-Training
+- **Generative Modeling**: Optimal-Transport Flow Matching, Diffusion Models, Latent VAEs, DiT & Block-Structured Attention, Multi-Condition CFG
 
 ## Selected Work
 
 **SAVE — ICLR 2026 · First author**
 
-A generalizable framework for multi-condition single-cell generation with gene-block
-attention. Public code covers gene-block construction, conditional generation,
-distribution evaluation, and perturbation prediction.
+Latent VAE and DiT-based optimal-transport flow matching with gene-block attention and multi-condition CFG. Public code covers semantic block construction, conditional generation, distribution evaluation, and perturbation prediction.
 
-[Paper](https://openreview.net/forum?id=l7QEoK4uDP) · [Code](https://github.com/fdu-wangfeilab/sc-save)
+[Paper](https://openreview.net/forum?id=l7QEoK4uDP) · [arXiv](https://arxiv.org/abs/2604.16776) · [Code](https://github.com/fdu-wangfeilab/sc-save)
 
 **stDiff — Briefings in Bioinformatics 2024 · Second author**
 
-Diffusion-based imputation of spatial transcriptomics through single-cell transcriptomics.
+Conditional diffusion model for imputing spatial transcriptomics through single-cell transcriptomics.
 
-[Paper](https://doi.org/10.1093/bib/bbae171) · [All publications](https://l1jiahao.github.io/publications)
+[Paper](https://doi.org/10.1093/bib/bbae171) · [Code](https://github.com/fdu-wangfeilab/stDiff) · [All publications](https://l1jiahao.github.io/publications)
 
 ## Background
 
