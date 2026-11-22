@@ -1,6 +1,6 @@
 # GitHub Profile 维护
 
-更新于 2026-11-21。仓库：`l1jiahao/l1jiahao`（公开）。
+更新于 2026-11-22。仓库：`l1jiahao/l1jiahao`（公开）。
 
 ## 当前展示
 
@@ -12,7 +12,7 @@
 - 保留顶部快捷链接徽章栏（含网站、Publications、SAVE、X `@argonx12`、Email）、终端速览块、分领域 Tech Stack 徽章表，以及底部直接展开的青绿色贡献蛇动画。
 - 当前研究为 WAM 记忆与原生长程训练，已有代码实验和初步结果，尚无正式论文；结合 simulation、robotics benchmarks 与 RL post-training 开展验证。硕士研究突出 Latent VAE、OT Flow Matching、Diffusion Models、DiT 与 CFG 经验，本科及学历保留为背景。
 - SAVE 已置顶到个人页；仓库是 `fdu-wangfeilab/sc-save`，README 附 OpenReview、arXiv 与 Code 链接；stDiff 链接 `fdu-wangfeilab/stDiff`。
-- GitHub 个人资料栏已同步具身智能 Bio、`https://l1jiahao.github.io` 与 `Shanghai, China`。
+- GitHub 个人资料栏已同步具身智能 Bio、`Shanghai, China`、邮箱与 X `@argonx12`；`l1jiahao/l1jiahao` 与 `l1jiahao/l1jiahao.github.io` 仓库 Homepage 已更新为 `https://argonx.dev`。账号 Website（`blog`）字段因当前 `gh` token 缺少 `user` scope 暂仍为 `https://l1jiahao.github.io`（可自动跳转至 `https://argonx.dev`），待补充 `gh auth refresh -h github.com -s user` 或在 GitHub Profile 设置中改为 `https://argonx.dev`。
 - 私有贡献显示此前已开启；私人仓库的内容不会因此公开。
 
 ## 发布

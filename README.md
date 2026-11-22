@@ -8,8 +8,8 @@
 
 <br/><br/>
 
-<a href="https://l1jiahao.github.io/"><img src="https://img.shields.io/badge/Website-l1jiahao.github.io-10B981?style=flat-square&labelColor=0D1117&logo=googlechrome&logoColor=10B981" alt="Website" /></a>
-<a href="https://l1jiahao.github.io/publications"><img src="https://img.shields.io/badge/Publications-7_Papers-0F766E?style=flat-square&labelColor=0D1117&logo=googlescholar&logoColor=2DD4BF" alt="Publications" /></a>
+<a href="https://argonx.dev/"><img src="https://img.shields.io/badge/Website-argonx.dev-10B981?style=flat-square&labelColor=0D1117&logo=googlechrome&logoColor=10B981" alt="Website" /></a>
+<a href="https://argonx.dev/publications"><img src="https://img.shields.io/badge/Publications-7_Papers-0F766E?style=flat-square&labelColor=0D1117&logo=googlescholar&logoColor=2DD4BF" alt="Publications" /></a>
 <a href="https://arxiv.org/abs/2604.16776"><img src="https://img.shields.io/badge/SAVE-ICLR_2026-10B981?style=flat-square&labelColor=0D1117&logo=arxiv&logoColor=10B981" alt="SAVE ICLR 2026" /></a>
 <a href="https://x.com/argonx12"><img src="https://img.shields.io/badge/X-%40argonx12-0F766E?style=flat-square&labelColor=0D1117&logo=x&logoColor=2DD4BF" alt="X @argonx12" /></a>
 <a href="mailto:argonli.ai@gmail.com"><img src="https://img.shields.io/badge/Email-argonli.ai%40gmail.com-1F6F5B?style=flat-square&labelColor=0D1117&logo=gmail&logoColor=2DD4BF" alt="Email" /></a>
@@ -73,7 +73,7 @@ stage/         implementation -> experiments -> preliminary results
       Conditional diffusion model imputing spatial transcriptomics from single-cell reference distributions.<br/><br/>
       <a href="https://doi.org/10.1093/bib/bbae171"><img src="https://img.shields.io/badge/Paper-DOI-0F766E?style=flat-square&labelColor=0D1117" alt="stDiff Paper" /></a>
       <a href="https://github.com/fdu-wangfeilab/stDiff"><img src="https://img.shields.io/badge/Code-stDiff-10B981?style=flat-square&labelColor=0D1117&logo=github&logoColor=white" alt="stDiff Code" /></a>
-      <a href="https://l1jiahao.github.io/publications"><img src="https://img.shields.io/badge/Archive-All_7_Publications-30363D?style=flat-square&labelColor=0D1117" alt="All Publications" /></a>
+      <a href="https://argonx.dev/publications"><img src="https://img.shields.io/badge/Archive-All_7_Publications-30363D?style=flat-square&labelColor=0D1117" alt="All Publications" /></a>
     </td>
   </tr>
 </table>
@@ -100,7 +100,7 @@ stage/         implementation -> experiments -> preliminary results
 
 <sub>
   <strong>M.Eng.</strong> Fudan University (2023–2026) · <strong>B.Eng.</strong> Nanchang University (2019–2023) ·
-  <a href="https://l1jiahao.github.io/#research">Research Overview</a> ·
+  <a href="https://argonx.dev/#research">Research Overview</a> ·
   <a href="mailto:argonli.ai@gmail.com?subject=WAM%20research">Discuss WAM Research</a>
 </sub>
 
