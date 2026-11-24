@@ -54,11 +54,12 @@ stage/         implementation -> experiments -> preliminary results
       <strong>SAVE: Multi-Condition Generation with Gene Block Attention</strong><br/>
       <img src="https://img.shields.io/badge/ICLR_2026-First_Author-10B981?style=flat-square&labelColor=0D1117" alt="ICLR 2026 First Author" /><br/><br/>
       <code>Latent VAE</code> <code>DiT</code> <code>OT Flow Matching</code> <code>Multi-Condition CFG</code><br/><br/>
-      Latent VAE and DiT-based optimal-transport flow matching with block-structured attention and multi-condition CFG. Public code covers semantic block construction, conditional generation, distribution evaluation, and perturbation prediction.<br/><br/>
+      Latent VAE and DiT-based optimal-transport flow matching with block-structured attention and multi-condition CFG. Released as the <code>sc-save</code> Python package and CLI covering semantic block construction, conditional generation, distribution evaluation, and perturbation prediction.<br/><br/>
       <a href="https://openreview.net/forum?id=l7QEoK4uDP"><img src="https://img.shields.io/badge/Paper-OpenReview-0F766E?style=flat-square&labelColor=0D1117" alt="SAVE Paper" /></a>
       <a href="https://arxiv.org/abs/2604.16776"><img src="https://img.shields.io/badge/arXiv-2604.16776-1F6F5B?style=flat-square&labelColor=0D1117&logo=arxiv&logoColor=2DD4BF" alt="SAVE arXiv" /></a>
       <a href="https://save.argonx.dev"><img src="https://img.shields.io/badge/Project_Page-save.argonx.dev-245D50?style=flat-square&labelColor=0D1117" alt="SAVE Project Page" /></a>
       <a href="https://github.com/fdu-wangfeilab/sc-save"><img src="https://img.shields.io/badge/Code-sc--save-10B981?style=flat-square&labelColor=0D1117&logo=github&logoColor=white" alt="SAVE Code" /></a>
+      <a href="https://pypi.org/project/sc-save/"><img src="https://img.shields.io/badge/PyPI-sc--save-0F766E?style=flat-square&labelColor=0D1117&logo=pypi&logoColor=2DD4BF" alt="SAVE PyPI" /></a>
     </td>
   </tr>
   <tr>
